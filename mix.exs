@@ -44,7 +44,7 @@ defmodule EctoDoctor.MixProject do
       {:plug, "~> 1.14", optional: true},
       {:credo, "1.7.19", only: [:dev, :test], runtime: false},
       {:ex_doc, "0.40.4", only: :dev, runtime: false},
-      {:dialyxir, "1.4.8", only: [:dev, :test], runtime: false},
+      {:dialyxir, "1.4.9", only: [:dev, :test], runtime: false},
       {:excoveralls, "0.18.5", only: :test},
       {:faker, "0.19.0", only: :test},
       {:myxql, "0.9.0", only: :test},
