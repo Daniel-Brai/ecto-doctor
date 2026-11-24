@@ -43,7 +43,7 @@ defmodule EctoDoctor.MixProject do
       {:postgrex, "~> 0.19", optional: true},
       {:plug, "~> 1.14", optional: true},
       {:credo, "1.7.19", only: [:dev, :test], runtime: false},
-      {:ex_doc, "0.40.4", only: :dev, runtime: false},
+      {:ex_doc, "0.40.5", only: :dev, runtime: false},
       {:dialyxir, "1.4.9", only: [:dev, :test], runtime: false},
       {:excoveralls, "0.18.5", only: :test},
       {:faker, "0.19.0", only: :test},
